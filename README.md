@@ -1,27 +1,8 @@
----
-license: cc-by-sa-4.0
-task_categories:
-- question-answering
-- summarization
-- sentence-similarity
-- text-generation
-language:
-- en
-tags:
-- wikipedia
-- authentic
-- non-synthetic
-viewer: false
-size_categories:
-- 1K<n<10K
----
-
 > [!NOTE]
-> See APPENDIX A for licensing background.
-
-> [!NOTE]
+> See `main.py` to view script used to "scrape" the summaries (only 23k because of their rate-limiting).  
+> See APPENDIX A for licensing background.  
 > See APPENDIX B for restrictions on commercial use (also applies to models trained on this data).
-
+---
 **Summary**:
 - 23,000 Wikipedia articles with title-summary pairs
 - JSON format with { "title": "summary", ... 22,999 times }
@@ -31,7 +12,7 @@ size_categories:
   - Indicate how the data was used or what changes were made
   - If you modify the dataset itself, derivates must be licensed alike
 - That's licensing Wikipedia enforces, not me, but these are still to be respected
-
+---
 ```
 APPENDIX A
 ---
