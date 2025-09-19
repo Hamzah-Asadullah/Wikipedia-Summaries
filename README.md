@@ -1,6 +1,6 @@
 > [!NOTE]
 > See `main.py` to view script used to "scrape" the summaries (only 23k because of their rate-limiting).
-> If you want to run `main.py`, make sure to install `pymediawiki` using `pip install pymediawiki.`
+> If you want to run `main.py`, make sure to install `pymediawiki` using `pip install pymediawiki.`  
 > See APPENDIX A for licensing background.  
 > See APPENDIX B for restrictions on commercial use (also applies to models trained on this data).
 ---
